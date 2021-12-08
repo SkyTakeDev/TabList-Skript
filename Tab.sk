@@ -1,0 +1,67 @@
+﻿on Join:
+	set tab header to "%new line% &8» &c&lITEMSUCHT.DE &8« %new line% " and footer to "%new line% &7Server &8» &eCB01 %new line%&7Store &8» &e/store %new line% " for player
+	
+on Join:
+	if player has permission "tab.owner":
+		set player tab name to "&4Owner &8| &7%player%"
+		stop
+	if player has permission "tab.admin":
+		set player tab name to "&4Manager &8| &7%player%"
+		stop
+	if player has permission "tab.dev":
+		set player tab name to "&bDev &8| &7%player%"
+		stop
+	if player has permission "tab.mod+":
+		set player tab name to "&cMod+ &8| &7%player%"
+		stop
+	if player has permission "tab.mod":
+		set player tab name to "&cMod &8| &7%player%"
+		stop
+	if player has permission "tab.sup+":
+		set player tab name to "&6Sup+ &8| &7%player%"
+		stop
+	if player has permission "tab.sup":
+		set player tab name to "&6Sup &8| &7%player%"
+		stop
+	if player has permission "tab.psup":
+		set player tab name to "&9P-Sup &8| &7%player%"
+		stop
+	if player has permission "tab.builder":
+		set player tab name to "&aBuilder &8| &7%player%"
+		stop
+	if player has permission "tab.content":
+		set player tab name to "&eContent &8| &7%player%"
+		stop
+	if player has permission "tab.vip+":
+		set player tab name to "&bVIP+ &8| &7%player%"
+		stop
+	if player has permission "tab.vip":
+		set player tab name to "&bVIP &8| &7%player%"
+		stop
+	if player has permission "tab.youtuber":
+		set player tab name to "&5YouTuber &8| &7%player%"
+		stop
+	if player has permission "tab.prime":
+		set player tab name to "&b&lPRIME &8| &7%player%"
+		stop
+	if player has permission "tab.platin":
+		set player tab name to "&cPLATIN &8| &7%player%"
+		stop
+	if player has permission "tab.supreme":
+		set player tab name to "&5Supreme &8| &7%player%"
+		stop
+	if player has permission "tab.legende":
+		set player tab name to "&eLegende &8| &7%player%"
+		stop
+	if player has permission "tab.ultra":
+		set player tab name to "&aUltra &8| &7%player%"
+		stop
+	if player has permission "tab.diamond":
+		set player tab name to "&bDiamond &8| &7%player%"
+		stop
+	if player has permission "tab.premium":
+		set player tab name to "&6Premium &8| &7%player%"
+		stop
+	if player has permission "tab.spieler":
+		set player tab name to "&8Spieler &8| &7%player%"
+		stop
